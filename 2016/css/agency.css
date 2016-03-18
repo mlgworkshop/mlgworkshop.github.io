@@ -788,6 +788,32 @@ footer ul.quicklinks
 	text-transform:none
 }
 
+ul.social-buttons-team
+{
+	margin-bottom:0
+}
+
+ul.social-buttons-team li a
+{
+	display:block;
+	background-color:#222;
+	height:31px;
+	width:31px;
+	border-radius:100%;
+	font-size:15px;
+	line-height:31px;
+	color:#fff;
+	outline:0;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s
+}
+
+ul.social-buttons-team li a:hover,ul.social-buttons-team li a:focus,ul.social-buttons-team li a:active
+{
+	background-color:#fed136
+}
+
 ul.social-buttons
 {
 	margin-bottom:0
