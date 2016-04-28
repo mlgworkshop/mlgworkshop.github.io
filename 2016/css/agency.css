@@ -803,11 +803,11 @@ ul.social-buttons-team li a
 {
 	display:block;
 	background-color:#222;
-	height:31px;
-	width:31px;
+	height:29px;
+	width:29px;
 	border-radius:100%;
 	font-size:15px;
-	line-height:31px;
+	line-height:29px;
 	color:#fff;
 	outline:0;
 	-webkit-transition:all .3s;
@@ -819,6 +819,29 @@ ul.social-buttons-team li a:hover,ul.social-buttons-team li a:focus,ul.social-bu
 {
 	background-color:#fed136
 }
+
+ul.social-buttons-team li a.inactive
+{
+	display:block;
+	background-color:#666;
+	height:29px;
+	width:29px;
+	border-radius:100%;
+	font-size:15px;
+	line-height:29px;
+	color:#fff;
+	outline:0;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s
+}
+
+ul.social-buttons-team li a.inactive:hover,ul.social-buttons-team li a.inactive:focus,ul.social-buttons-team li a.inactive:active
+{
+	background-color:#666
+}
+
+
 
 ul.social-buttons
 {
@@ -845,6 +868,28 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 {
 	background-color:#fed136
 }
+
+ul.social-buttons li a.inactive
+{
+	display:block;
+	background-color:#666;
+	height:40px;
+	width:40px;
+	border-radius:100%;
+	font-size:20px;
+	line-height:40px;
+	color:#fff;
+	outline:0;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s
+}
+
+ul.social-buttons li a.inactive:hover,ul.social-buttons li a.inactive:focus,ul.social-buttons li a.inactive:active
+{
+	background-color:#666
+}
+
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus
 {
