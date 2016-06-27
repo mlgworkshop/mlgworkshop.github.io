@@ -68,19 +68,25 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#introduction">Introduction</a>
+                        <a class="page-scroll" href="#introduction">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Schedule</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#keynote">Keynotes</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#call">Call for Papers</a>
+                        <a class="page-scroll" href="#papers">Accepted Papers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#call">CFP</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#dates">Dates</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#organization">Organization</a>
+                        <a class="page-scroll" href="#organization">Organizers</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#history">History</a>
@@ -137,8 +143,30 @@
         </div>
     </section>
 
+    <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">Program schedule will be added soon.</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 text-left">
+                &nbsp;
+              </div>
+            <div class="col-lg-6 text-left">
+                <div class="col-md-12">
+                  &nbsp;
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- Keynote Section -->
-      <section id="keynote" class="bg-mid-gray">
+      <section id="keynote">
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 text-center">
@@ -257,6 +285,292 @@
           </div>
       </section>
 
+    <!-- Accepted Papers Section -->
+    <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <h3 class="section-subheading text-muted">Full text of accepted papers will be added soon.</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1 text-justify">
+                &nbsp;
+              </div>
+            <div class="col-lg-10 text-justify">
+
+                  <!-- Begin Paper List -->
+                  <p class="large text-muted">
+                  <strong>A Graph Analytics Framework for Ranking Authors, Papers and Venues</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid3">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Arindam Pal and Sushmita Ruj.</i>
+                  <div id="pid3" class="collapse">
+                  Abstract: A lot of scientific works are published in different areas of science, technology, engineering and mathematics. It is not easy, even for experts, to judge the quality of authors, papers and venues (conferences and journals). An objective measure to assign scores to these entities and to rank them is very useful. Although, several metrics and indexes have been proposed earlier, they suffer from various problems. In this paper, we propose a graph-based analytics framework to assign scores and to rank authors, papers and venues. Our algorithm considers only the link structures of the underlying graphs. It does not take into account other aspects, such as the associated texts and the reputation of these entities. In the limit of large number of iterations, the solution of the iterative equations gives the unique entity scores. This framework can be easily extended to other interdependent networks.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Adaptive Neighborhood Graph Construction for Inference in Multi-Relational Networks</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid29">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Shobeir Fakhraei, Dhanya Sridhar, Jay Pujara and Lise Getoor.</i>
+                  <div id="pid29" class="collapse">
+                  Abstract: A neighborhood graph, which represents the instances as vertices and their relations as weighted edges, is the basis of many semi-supervised and relational models for node labeling and link prediction. Most methods employ a sequential process to construct the neighborhood graph. This process often consists of generating a candidate graph, pruning the candidate graph to make a neighborhood graph, and then performing inference on the variables (i.e., nodes) in the neighborhood graph. In this paper, we propose a framework that can dynamically adapt the neighborhood graph based on the states of variables from intermediate inference results, as well as structural properties of the relations connecting them. A key strength of our framework is its ability to handle multi-relational data and employ varying amounts of relations for each instance based on the intermediate inference results. We formulate the link prediction task as inference on neighborhood graphs, and include preliminary results illustrating the caring effects of different strategies in our proposed framework.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Adding Structure: Social Network Inference with Graph Priors</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid14">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Han Liu, Stratis Ioannidis, Smriti Bhagat and Chen-Nee Chuah.</i>
+                  <div id="pid14" class="collapse">
+                  Abstract: We study the problem of social network graph inference, whereby the topology of user interaction networks, as well as the strength of pairwise influences, are inferred from traces of information cascades. We propose a framework of introducing graph structural priors into the above inference process. This framework allows us to capture different priors on the graph's degree distribution, including, e.g., stretched exponential, log-normal (approximation), and power-law, which are important due to the natural prevalence of such structures in real social networks and many other complex graphs. We show that network inference under our model is amenable to the so-called majorize-minimize method, and that its implementation is tractable, as each step amounts to solving a convex optimization problem. We extensively evaluate our method over synthetic datasets as well as real-world datasets from Twitter and a Facebook app, iHeart. We observe that network inference incorporating our structural priors significantly outperforms state-of-the-art approaches incorporating a structure-free regularization term.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Detecting Concept Drift in Classification Over Streaming Graphs</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid9">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Yibo Yao and Lawrence Holder.</i>
+                  <div id="pid9" class="collapse">
+                  Abstract: Detecting concept drift in data streams has been widely studied in the data mining community. Conventional drift  detection methods use classifiers' outputs (e.g., classification  accuracy, error rate) as indicators to signal concept changes.  As a result, their performance greatly depends on the chosen  classifiers. However, there is little work on addressing concept drift in graph-structured data. In this paper, we present  a Graph Entropy-based Method (GEM) to effectively detect  concept drift in graph streams. Contrary to many related  works, we investigate the intrinsic properties of data (i.e.,  subgraph distribution w.r.t. class membership), instead of  monitoring classification outputs. This method can be combined with any graph stream classifier to facilitate classification on non-stationary graph streams. Our approach is combined with several graph stream classification algorithms  and tested on synthetic and real-world graph data streams.  The experimental results demonstrate the advantage of our  method in detecting concept drift as well as improving classification performance.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Distance-Based Influence in Networks: Computation and Maximization</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid28">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Edith Cohen, Daniel Delling, Thomas Pajor and Renato Werneck.</i>
+                  <div id="pid28" class="collapse">
+                  Abstract: A premise at a heart of network analysis is that entities in a network derive utilities from their connections. The {\em influence} of a seed set $S$ of nodes is defined as the sum over nodes $j$ of the {\em utility} of $S$ to $j$. {\em Distance-based} utility, which is a decreasing function of the distance from $S$ to $j$, was explored in several successful research threads from social network analysis and economics: Network formation games [Bloch and Jackson 2007], Reachability-based influence [Richardson and Domingos 2002; Kempe et al. 2003]; ``threshold'' influence [Gomez-Rodriguez et al. 2011]; and {\em closeness centrality} [Bavelas 1948]. We formulate a model that unifies and extends this previous work and address the two fundamental computational problems in this domain: {\em Influence oracles} and {\em influence maximization} (IM). An oracle performs some preprocessing, after which influence queries for arbitrary seed sets can be efficiently computed. With IM, we seek a set of nodes of a given size with maximum influence. Since the IM problem is computationally hard, we instead seek a {\em greedy sequence} of nodes, with each prefix having influence that is at least $1-1/e$ of that of the optimal seed set of the same size. We present the first highly scalable algorithms for both problems, providing statistical guarantees on approximation quality and near-linear worst-case bounds on the computation. We perform an experimental evaluation which demonstrates the effectiveness of our designs on networks with hundreds of millions of edges.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Distributed Community Detection on Edge-labeled Graphs using Spark</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid5">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>San-Chuan Hung, Miguel Araujo and Christos Faloutsos.</i>
+                  <div id="pid5" class="collapse">
+                  Abstract: How can we detect communities in graphs with edge-labels, such as time-evolving networks or edge-colored graphs? Unlike classical graphs, edge-labels contain additional information about the type of edges, e.g., when two people got connected, or which company hosts the air route between two cities. We model community detection on edge-labeled graphs as a tensor decomposition problem and propose TeraCom, a distributed system that is able to scale in order to solve this problem on 10x larger graphs. By carefully designing our algorithm and leveraging the Spark framework, we show how to achieve better accuracy (in terms of recovering ground-truth communities) when compared to PARAFAC methods - up to 30% increase in NMI. We also present interesting clusters discovered by our system in a flights network.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Efficient Comparison of Massive Graphs Through The Use Of ‘Graph Fingerprints’</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid16">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Stephen Bonner, John Brennan, Georgios Theodoropoulos, Stephen McGough and Ibad Kureshi.</i>
+                  <div id="pid16" class="collapse">
+                  Abstract: The problem of how to compare empirical graphs is an area of great interest within the field of network science. The ability to accurately but efficiently compare graphs has a significant impact in such areas as temporal graph evolution, anomaly detection and protein comparison. The comparison problem is compounded when working with graphs containing millions of anonymous, i.e. unlabelled, vertices and edges. Comparison of two or more graphs is highly computationally expensive. Thus reducing a graph to a much smaller feature set – called a fingerprint, which accurately captures the essence of the graph would be highly desirable. Such an approach would have potential applications outside of graph comparisons, especially in the area of machine learning. This paper introduces a feature extraction based approach for the efficient comparison of large topologically similar, but order varying, unlabelled graph datasets. The approach acts by producing a ‘Graph Fingerprint’ which represents both vertex level and global level topological features from a graph. The approach is shown to be efficient when comparing graphs which are highly topologically similar but order varying. The approach scales linearly with the size and complexity of the graphs being fingerprinted.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Entity Resolution in Familial Networks</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid19">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Pigi Kouki, Christopher Marcum, Laura Koehly and Lise Getoor.</i>
+                  <div id="pid19" class="collapse">
+                  Abstract: Entity resolution is an important graph mining problem. Entity resolution is particularly interesting and challenging when there is rich relational structure. In this paper, we study the problem of performing entity resolution in familial networks. In our setting, we are given partial views of a familial network as described from the point of view of different people in the network and our goal is to reconstruct the underlying familial network from these perspective partial views. The data and relations provided may be inaccurate, missing or incomplete. In our approach, we start by augmenting the known set of familial relations with additional ones that are either inversed or derived from the original set of relations by linkage heuristics. Additionally, we propose a set of measures that capture the similarity of persons in the familial network based on both personal and relational information. We present a supervised learning approach where we view entity resolution in familial networks as a classication problem. Our experiments on real-world data from multiple-informant pedigrees show that our approach works well and that we can improve performance by considering separate similarity scores for each relation type.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Entity Typing: A Critical Step for Mining Structures from Massive Unstructured Text</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid10">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Xiang Ren, Wenqi He, Ahmed El-Kishky, Clare R. Voss, Heng Ji, Meng Qu and Jiawei Han.</i>
+                  <div id="pid10" class="collapse">
+                  Abstract: We have been studying learning and mining graphs or networks. Where do most real networks come from? Although some networks come from well-structured and explicitly connected nodes and links, a majority of networks come from massive unstructured text data, and it takes human efforts to extract them and build them explicitly. Unfortunately, manual data curation and extraction of structures from unstructured data can be costly, unscalable, and error-prone. We have been investigating a data-driven approach to building structured networks from unstructured text data. First, quality phrases can be mined from massive text corpus, serving as basic semantic units, mostly being entities. Second, types can be inferred for such entities from such massive text data with distant supervision and relationships among entities can be uncovered by network embedding as well. Therefore, entity typing is a critical step for mining structures from unstructured text data. In this study, we focus on how to conduct entity typing with a data-driven approach. We show that "rough" entity types can be identified from massive text data with a distant supervision approach via some domain-independent knowledge-bases. However, for refined typing, even the type labels in a knowledge bases can be noisy (i.e., incorrect for the entity mention’s local context). We propose a general framework, called PLE, to jointly embed entity mentions, text features and entity types into the same low-dimensional space where, in that space, objects whose types are semantically close have similar representations. Then we estimate the type-path for each training example in a top-down manner using the learned embeddings. We formulate a global objective for learning the embeddings from text corpora and knowledge bases, which adopts a novel margin-based loss that is robust to noisy labels and faithfully models type correlation derived from knowledge bases. Our experiments on three public typing datasets demonstrate the effectiveness and robustness of PLE, with an average of 25\% improvement in accuracy compared to next best method.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Fast Patchwork Bootstrap for Quantifying Estimation Uncertainties in Sparse Random Networks</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid25">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Yulia Gel, Vyacheslav Lyubchich and Leticia Ramirez Ramirez.</i>
+                  <div id="pid25" class="collapse">
+                  Abstract: We propose a new method of nonparametric bootstrap to quantify estimation uncertainties in large and possibly sparse random networks. The method is tailored for inference on functions of network degree distribution, under the assump- tion that both network degree distribution and network or- der are unknown. The key idea is based on adaptation of the “blocking” argument, developed for bootstrapping of time series and re-tiling of spatial data, to random networks. We sample network blocks (patches) and bootstrap the data within these patches. To select an optimal patch size, we develop a new computationally efficient and data-driven cross- validation algorithm. The proposed fast patchwork bootstrap (FPB) methodology further extends the ideas developed by Thompson et al., 2016, for a case of network mean degree, to inference on a degree distribution. In addition, the FPB is substantially less computationally expensive, requires less information on a graph, and is free from nuisance parameters. In our simulation study, we show that the new bootstrap method outperforms competing approaches by providing sharper and better calibrated confidence intervals for functions of a network degree distribution than other available approaches. We illustrate the FPB in application to a study of the Erdös collaboration network.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>IGLOO: Integrating global and local biological network alignment</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid15">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Lei Meng, Joseph Crawford, Aaron Striegel and Tijana Milenkovic.</i>
+                  <div id="pid15" class="collapse">
+                  Abstract: Analogous to genomic sequence alignment, biological network alignment (NA) aims to find regions of similarities between molecular networks (rather than sequences) of different species. NA can be either local (LNA) or global (GNA). LNA aims to identify highly conserved common subnetworks, which are typically small, while GNA aims to identify large common subnetworks, which are typically suboptimally conserved. We recently showed that LNA and GNA yield complementary results: LNA has high functional but low topological alignment quality, while GNA has high topological but low functional alignment quality. Thus, we propose IGLOO, a new approach that integrates GNA and LNA in hope to reconcile the two. We evaluate IGLOO against state-of-the-art LNA (NetworkBLAST, NetAligner, AlignNemo, and AlignMCL) and GNA (GHOST, NETAL, GEDEVO, MAGNA++, WAVE, and L-GRAAL) methods. We show that IGLOO allows for a trade-off between topological and functional alignment quality better than the existing LNA and GNA methods considered in our study.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Identifying Anomalies in Graph Streams Using Change Detection</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid7">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>William Eberle and Lawrence Holder.</i>
+                  <div id="pid7" class="collapse">
+                  Abstract: Anomaly detection in graph streams requires both the discovery of normative subgraph patterns in the stream and then the identification of subgraphs that are unexpected deviations from the normative patterns. Both of these processes are computationally complex, and therefore we should only update them when necessary. We present an approach based on a change detection metric used for graph sampling that selectively updates the normative patterns only when significant change has occurred. Using a batch processing method on the graph stream, we show that the change detection approach significantly reduces running times while maintaining the accuracy of more exhaustive approaches.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Incremental Method for Spectral Clustering of Increasing Orders</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid4">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Pin-Yu Chen, Baichuan Zhang, Mohammad Hasan and Alfred Hero.</i>
+                  <div id="pid4" class="collapse">
+                  Abstract: The smallest eigenvalues and the associated eigenvectors (i.e., eigenpairs) of a graph Laplacian matrix have been widely used for spectral clustering and community detection. However, in real-life applications the number of clusters or communities (say, K) is generally unknown a-priori. Consequently, the majority of the existing methods either choose K heuristically or they repeat the clustering method with different choices of K and accept the best clustering result. The first option, more often, yields suboptimal result, while the second option is computationally expensive. In this work, we propose an incremental method for constructing the eigenspectrum of the graph Laplacian matrix. This method leverages the eigenstructure of graph Laplacian matrix to obtain the K-th eigenpairs of the Laplacian matrix given a collection of all the $K-1$ smallest eigenpairs. Our proposed method adapts the Laplacian matrix such that the batch eigenvalue decomposition problem transforms into an efficient sequential leading eigenpair computation problem. As a practical application, we consider user-guided spectral clustering. Specifically, we demonstrate that users can utilize the proposed incremental method for effective eigenpair computation and determining the desired number of clusters based on multiple clustering metrics.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Investigating the impact of graph structure and attribute correlation on collective classification performance</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid21">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Giselle Zeno and Jennifer Neville.</i>
+                  <div id="pid21" class="collapse">
+                  Abstract: Relational machine learning methods can significantly improve the predictive accuracy of models for a range of network domains, from social networks to physical and biological networks. The methods automatically learn network correlation patterns from observed data and then use them in a collective inference process to propagate predictions throughout the network. While previous work has indicated that both link density and network autocorrelation impact the performance of collective classification models, this is based on observations from a limited set of real world networks available for empirical evaluation. There has been some work using synthetic data to systematically study model performance as data characteristics are varied, but the complexity of generating realistic network structures made it difficult to consider characteristics jointly. In this paper, we exploit a recently developed method for generating attributed networks with realistic network structure (i.e., parameters learned from real networks) and correlated attributes. Using synthetic data generated from the model, we conduct a systematic study of relational learning and collective inference methods to investigate how graph characteristics interact with attribute correlation to impact classification performance. Notably, we show that AUC performance of the method can be accurately predicted from a linear function of link density and attribute correlation.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Local Spectral Diffusion for Robust Community Detection</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid8">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Kun He, Pan Shi, John E. Hopcroft and David Bindel.</i>
+                  <div id="pid8" class="collapse">
+                  Abstract: We address a semi-supervised learning problem of identifying all latent members of a local community from very few labeled seed members in large networks. By a simple and efficient sampling method, we conduct a comparatively small subgraph encompassing most of the latent members such that the follow-up membership identification could focus on an accurate local region instead of the whole network. Then we look for a sparse vector, a relaxed indicator vector representing the subordinative probability of the corresponding nodes, that lies in a local spectral subspace defined by an order-$d$ Krylov subspace. The subspace serves as a local proxy for the invariant subspace spanned by leading eigenvectors of the Laplacian matrices. Based on Rayleigh quotients, we relate the local membership identification task as a local RatioCut or local normalized cut optimization problem, and provide some theoretical justifications. We thoroughly explore different probability diffusion methods for the subspace definition and evaluate our method on four groups with a total of 28 representative LFR benchmark datasets, and eight public available real-world networks with labeled ground truth communities across multiple domains. Experimental results exhibit the effectiveness and robustness of the proposed algorithm, and the local spectral communities perform better than those from the celebrated Heat Kernel diffusion[10] and the PageRank diffusion[1].
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Measuring Graph Proximity with Blink Model</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid13">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Haifeng Qian, Hui Wan, Mark N. Wegman, Luis A. Lastras and Ruchir Puri.</i>
+                  <div id="pid13" class="collapse">
+                  Abstract: This paper proposes a new graph proximity measure. This measure is a derivative of network reliability. By analyzing its properties and comparing it against other proximity measures through graph examples, we demonstrate that it is more consistent with human intuition than competitors. A new deterministic algorithm is developed to approximate this measure with practical complexity. Empirical evaluation by two link prediction benchmarks, one in coauthorship networks and one in Wikipedia, shows promising results. For example, a single parameterization of the proposed measure achieves accuracies that are 14-35% above the best accuracy for each graph of all predictors reported in the 2007 Liben-Nowell and Kleinberg survey.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Perseus3: Visualizing and Interactively Mining Large-Scale Graphs</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid11">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Di Jin, Christos Faloutsos, Danai Koutra and Ticha Sethapakdi.</i>
+                  <div id="pid11" class="collapse">
+                  Abstract: How can we summarize large graphs of different types, e.g., unipartite or bipartite, directed or undirected? How can we find anomalous patterns in such graphs efficiently? In this paper we present PERSEUS3, a large-scale graph mining system that supports analysis of three types of graphs: unipartite and undirected; bipartite and undirected; and unipartite and directed. Our system provides coupled summarization of graph properties and the network structure, and allows the user to interactively explore normal and anomalous node behaviors. PERSEUS3 is developed based on PERSEUS with three significant extensions: (1) Graph statistics are extracted depending on the type of the input network (e.g., total degree, eigenvectors for undirected graphs; in/out degree, SVD vectors for directed graphs); (2) Subgraphs of the selected node are interactively visualized through the adjacency matrices; (3) Heatmaps (instead of simple scatterplots) are adopted in graph summarization to improve the scalability of the system. Our extensive experiments show that PERSEUS3 handles different tasks of graph mining efficiently. Specifically we run the univariate undirected graph analysis on a Twitter who-follows-whom graph which spans 0.26 million users and 220 million links; we also run the bipartite graph analysis on a user-movie ratings dataset, and the directed graph analysis on a patent citation graph. We report the patterns discovered, including bipartite cores and outliers spotted by PERSEUS3.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Predicting risky behavior in social communities</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid24">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Olivia Simpson and Julian McAuley.</i>
+                  <div id="pid24" class="collapse">
+                  Abstract: Predicting risk profiles of individuals in networks (e.g. susceptibility to a particular disease, or likelihood of smoking) is challenging for a variety of reasons. For one, ‘local’ features (such as an individual’s demographic information) may lack sufficient information to make informative predictions; this is especially problematic when predicting ‘risk,’ as the relevant features may be precisely those that an individual is disinclined to reveal in a survey. Secondly, even if such features are available, they still may miss crucial information, as ‘risk’ may be a function not just of an individual’s features but also those of their friends and social communities. Here, we predict individual’s risk profiles as a function of both their local features and those of their friends. Instead of modeling influence from the social network directly (which proved difficult as friendship links may be sparse and partially observed), we instead model influence by discovering social communities in the network that may be related to risky behavior. The result is a model that predicts risk as a function of local features, while making up for their deficiencies, and accounting for social influence by uncovering community structure in the network. We test our model by predicting risky behavior among adolescents from the Add health data set, and hometowns among users in a Facebook ego net. Compared to prediction by features alone, our model demonstrates better predictive accuracy when measured as a whole, and in particular when measured as a function of network “richness.”
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Real-Time Community Detection in Large Social Networks on a Laptop</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid6">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Ben Chamberlain and Marc Deisenroth.</i>
+                  <div id="pid6" class="collapse">
+                  Abstract: For a broad range of governmental and commercial applications, it is important to understand the allegiances, communities  and structure of key players in society. One promising  direction towards extracting this information is to exploit the rich relational data in digital social networks (the  social graph). As social media data sets are very large,  most approaches make use of distributed computing systems  for this purpose. Distributing graph processing requires  solving many dicult engineering problems, which has lead  some researchers to look at single-machine solutions that are  faster and easier to maintain. In this article, we present a  single-machine real-time system for large-scale graph processing  that allows analysts to interactively explore graph  structures. The key idea is that the aggregate actions of  large numbers of users can be compressed into a data structure  that encapsulates user similarities while being robust to  noise and queryable in real-time. We achieve single machine  real-time performance by compressing the neighbourhood  graph of each vertex using minhash signatures and facilitate  rapid queries through Locality Sensitive Hashing. These  techniques reduce query times from hours using industrial  desktop machines operating on the full graph to milliseconds  on standard laptops. Our method allows analysts to  interactively explore strongly associated regions, e.g., communities,  of large graphs in real-time on their laptops. Our  work has been deployed in software that is actively used by  analysts to understand social network structure. It oers another channel for social media providers to monetise their data, helping them to continue to provide free services that are valued by billions of people globally.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Reducing Million-Node Graphs to a Few Structural Patterns: A Unified Approach</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid23">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Yike Liu, Tara Safavi, Neil Shah and Danai Koutra.</i>
+                  <div id="pid23" class="collapse">
+                  Abstract: How do graph clustering techniques compare in terms of summarization power? How well can they summarize a million-node graph with a few representative structures? In this paper, we compare and contrast different techniques: METIS, LOUVAIN, SPECTRAL CLUSTERING, SLASHBURN, BIGCLAM, HYCOMFIT, and KCBC, our proposed k-core-based clustering method. Unlike prior work that focuses on various measures of cluster quality, we use vocabulary structures that often appear in real graphs and the Minimum Description Length (MDL) principle to obtain a graph summary per clustering method. Our main contributions are: (i) Formulation: we propose a summarization-based evaluation of clustering methods. Our method, VOG-OVERLAP, concisely summarizes graphs in terms of their important structures with small edge overlap and large node/edge coverage; (ii) Algorithm: we introduce KCBC, a graph decomposition technique based on the k-core algorithm. We also introduce STEP, a summary assembly heuristic that produces compact summaries, as well as two parallel approximations thereof. (iii) Evaluation: we compare the summarization power of seven clustering techniques on large real graphs and analyze their compression rates, summary statistics, and runtimes.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Relational Similarity Machines</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid26">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Ryan Rossi, Rong Zhou and Nesreen Ahmed.</i>
+                  <div id="pid26" class="collapse">
+                  Abstract: This paper introduces the interactive relational machine learning (iRML) paradigm that aims to improve the design, refinement, and overall utility of statistical relational learning (SRL) by leveraging human capabilities. In particular, the iRML paradigm allows for the refinement and tuning of relational learning methods for specific application domains and constraints via an end-to-end interactive visual analytic pipeline that learns, infers, and provides rapid interactive visualization with immediate feedback at each change/prediction in real-time. However, most existing SRL methods are not easily adapted for the iRML paradigm. iRML requires new types of relational learning methods that are flexible, accurate, and fast with real-time interactive rates. In this work, we propose relational similarity machines (RSM) — a fast, accurate, and flexible relational learning framework for supervised and semi-supervised classification problems. RSM is designed to be (i) fast for learning and inference at real- time interactive rates, and (ii) flexible for a variety of learning settings (multi-class problems), constraints (few labeled instances), and application domains. Methods are investigated that enable direct manipulation of the various components of the iRML method. Visual representations and interaction techniques and tools are developed for exploring tradeoffs of the various components and design choices. Finally, the proposed methods are shown to be accurate, fast, and flexible for iRML on a variety of tasks and data.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Scaling Overlapping Clustering</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid1">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Kyle Kloster, Merrielle Spain and Stephen Kelley.</i>
+                  <div id="pid1" class="collapse">
+                  Abstract: Identifying communities plays a central role in understanding the structure of large networks. As practitioners analyze progressively larger networks, it becomes increasingly important to understand the computational complexity of candidate algorithms. We examine the complexity of the link clustering algorithm for overlapping community detection. We provide new, tight bounds for the original implementation and propose modifications to reduce algorithmic complexity. These new bounds are a function of the number of wedges in the graph. Additionally, we demonstrate that for several community detection algorithms, wedges predict runtime better than commonly cited graph features. We conclude by proposing a method to reduce the wedges in a graph by removing high-degree vertices from the network, identifying communities with an optimized version of link clustering, and heuristically matching communities with the removed vertices as a post-processing step. We empirically demonstrate a large reduction in processing time on several common data sets.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Sparse Network Inference using the k-Support Norm</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid22">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Aman Gupta, Haohan Wang and Rama Kumar Pasumarthi.</i>
+                  <div id="pid22" class="collapse">
+                  Abstract: Network inference is an important problem in a variety of domains. Understanding gene interaction networks is an important problem in Biology. DNA microarrays provide a cheap and efficient mechanism of measuring mRNA expression levels of thousands of genes in one go. The computational problem then reduces to taking gene mRNA expression time series data and using inference/reverse-engineering techniques to learn a gene interaction network. In the context of social network analysis, network inference refers to the problem of inferring underlying network of influence, given time series data of when users performed certain actions (e.g., post, retweet, share). These networks capture the dynamics of influence and information diffusion. In this position paper, we discuss various strategies to learn sparse networks with the help of the k-support norm, which corresponds to the tightest convex relaxation of sparsity combined with an l2 penalty. This norm encourages sparsity and also controls the influence of individual parameters. We also discuss strategies to incorporate various constraints on learned networks.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid20">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Annamalai Narayanan, Mahinthan Chandramohan, Lihui Chen, Yang Liu and Santhosh Kumar Saminathan.</i>
+                  <div id="pid20" class="collapse">
+                  Abstract: In this paper, we present subgraph2vec, a novel approach for learning latent representations of rooted subgraphs from large graphs inspired by recent advancements in Deep Learning and Graph Kernels. These latent representations encode semantic sub-structure dependencies in a continuous vector space, which is easily exploited by statistical models for tasks such as graph classification and clustering. Similar to recently proposed Deep Graph Kernels [7], subgraph2vec leverages on local information obtained from neighborhoods of nodes to learn their latent representations in an unsupervised fashion. We demonstrate that subgraph vectors learnt by our approach could be used in conjunction with classifiers such as CNNs, SVMs and relational data clustering algorithms to achieve significantly superior classification and clustering accuracies. Our experiments on several benchmark and largescale real-world datasets reveal that subgraph2vec achieves significant improvements in accuracies over existing graph kernels. Specifically, on two large-scale program analysis tasks, namely, code clone and malware detection, subgraph2vec outperforms state-of-the-art graph kernels by more than 17% and 7%, respectively.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>The Infinity Mirror Test for Analyzing the Robustness of Graph Generators</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid12">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Salvador Aguinaga and Tim Weninger.</i>
+                  <div id="pid12" class="collapse">
+                  Abstract: Graph generators learn a model from a source graph in order to generate a new graph that has many of the same properties. The learned models each have implicit and explicit biases built in, and its important to understand the assumptions that are made when generating a new graph. Of course, the differences between the new graph and the original graph, as compared by any number of graph properties, are important indicators of the biases inherent in any modelling task. But these critical differences are often subtle, and therefore not immediately apparent using standard performance metrics. Therefore, we introduce the infinity mirror test for the analysis of graph generator performance and robustness. This stress test operates by repeatedly, recursively fitting a model to itself. A perfect graph generator would have no deviation from the original or ideal graph, however the implicit biases and assumptions that are cooked into the various models are exaggerated by the infinity mirror test allowing for new insights that were not available before. We show, via hundreds of experiments on 6 real world graphs, that the several common graph generators do degenerate in interesting and informative ways. We believe that the observed degenerative patterns are clues to the future development of better graph models.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Training Iterative Collective Classifiers with Back-Propagation</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid18">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Shuangfei Fan and Bert Huang.</i>
+                  <div id="pid18" class="collapse">
+                  Abstract: We propose a new method for training iterative collective classifiers for labeling nodes in network data. The iterative classification algorithm (ICA) is a canonical method for incorporating relational information into the classification process. Yet, existing methods for training ICA models rely on computing relational features using the true labels of the nodes. This method introduces a bias that is inconsistent with the actual prediction algorithm. In this paper, we introduce a variant of ICA, recurrent collective classification (RCC) as a procedure analogous to recurrent neural network prediction, which enables gradient-based strategies for optimizing over model parameters. We demonstrate that by training RCC with back-propagation, we more directly optimize the training loss of collective classification, which translates to improved accuracy and robustness on real network data. This robustness enables effective collective classification in settings where local classification is very noisy, settings that previously were particularly challenging for ICA and variants.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>User Action Prediction for Computational Advertisement Using Local Graph Algorithms</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid2">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Hongxia Yang, Yada Zhu and Jingrui He.</i>
+                  <div id="pid2" class="collapse">
+                  Abstract: User behavior modeling is essential in computational advertisement, which builds users' profiles by tracking their online behaviors and then delivers the relevant ads according to each user's interests and needs. Accurate models will lead to higher targeting accuracy and thus improved advertising performance. Intuitively, similar users tend to have similar behaviors towards the displayed ads. However, to the best of our knowledge, there is very little (if at all) previous work that explicitly investigates such similarities and incorporates them into ad response targeting and prediction, largely due to the prohibitive scale of the problem. To bridge this gap, in this paper, we use bipartite graphs to represent historical user behaviors, which consist of both user nodes and advertiser campaign nodes, as well as edges reflecting user-campaign interactions in the past. Based on this representation, we study random-walk-based local algorithms for user behavior modeling and action prediction, whose computational complexity depends only on the size of the output cluster, rather than the entire graph. Our goal is to improve action prediction by leveraging historical user-user, campaign-campaign, and user-campaign interactions. In particular, we propose the bipartite graphs AdvUserGraph accompanied with the ADNI algorithm. ADNI extends the NIBBLE algorithm to AdvUserGraph, and it is able to find the local cluster consisting of interested users towards a specific advertiser campaign. We also propose two extensions of ADNI with improved efficiencies. The performance of the proposed algorithms is demonstrated on both synthetic data and a world leading Demand Side Platform (DSP), showing that they are able to discriminate extremely rare events in terms of their action propensity.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Using MapReduce for Impression Allocation in Online Social Networks</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid27">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Inzamam Rahaman and Patrick Hosein.</i>
+                  <div id="pid27" class="collapse">
+                  Abstract: Online Social Networks (OSNs) offer an efficient and cost effective platform for the dissemination of advertisements to potential consumers. User actions and relationshipscan be analyzed to make informed decisions aboutwhere, how, and to whom advertisement impressions should be allocatedto maximize the efficacy of an advertising campaign in an OSN. Basedon the observation that users influence their friends, research hasbeen done to decide to whom impressions should be given so as to maximize thetotal number of clicks achieved. Recently, a multistageformulation that involves the allocation of advertisementsin stages, has been proposed as a stochastic dynamicprogramming problem. We have developed heuristics based on this formulation and believethat the MapReduce model can be used to further increase performance and reduce compute time.This involves using cluster analysis together with a distributed version of our proposedgreedy algorithm. In this paper we provide the framework for this distributedalgorithm.
+                  </div></p>
+
+                  <p class="large text-muted">
+                  <strong>Within-network classification with label-independent features and latent linkages</strong>
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid17">Abstract</button>
+                  <!--a href="#" class="btn btn-primary btn-xs" role="button">PDF</a--><br/>
+                  <i>Christopher Ryther, Jakob Simonsen and Andreas Koch.</i>
+                  <div id="pid17" class="collapse">
+                  Abstract: We study within-network classification in sparsely labelled networks, presenting two separate contributions: (A) a thorough reproduction of a label-independent method for classification from recent research using statistical relational learning (SRL) and semi-supervised learning (SSL), and (B) a novel approach that utilizes node attribute information to improve SRL and SSL classifier performance called Attribute Network Propagation (ANP). (B) uses a method of linearly combining predictions with a procedure of transforming node attributes into graph edges. For both contributions we use two well-known real-world datasets: the reality mining (RM) cell phone calls dataset and the Cora Portal publication citations dataset (CORA), both formulated as binary classification problems. We employ an existing classification framework to run 10 individual SRL- and SSL-based classifiers and evaluate performance using the area under the ROC curve (AUC). Results from (A) confirms that label-independent features can improve the performance of some relational classifiers using iterative methods, but in most cases, 26 out of 30, deteriorates performance on existing baselines. Results from (B) show that in 91 out of 100 cases it is possible to improve the performance of relational classifiers with ANP.
+                  </div></p>
+                  <!-- End Paper List -->
+
+            </div>
+            <div class="col-lg-1 text-justify">
+              &nbsp;
+            </div>
+
+          </div>
+        </div>
+    </section>
 
     <!-- Call for Papers Section -->
     <section id="call">
