@@ -268,11 +268,11 @@
               <div class="row">
                   <div class="col-lg-12 text-center">
                       <h2 class="section-heading">Keynote Speakers</h2>
-                      <!--h3 class="section-subheading text-muted">More keynote speakers will be announced soon!</h3-->
+                      <h3 class="section-subheading text-muted">&nbsp;</h3>
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/leman.jpg" class="img-responsive img-circle" alt="Leman Akoglu">
                           <h4>Leman Akoglu</h4>
@@ -286,11 +286,21 @@
                               </li>
                               <li><a target=_blank href="https://scholar.google.com/citations?user=4ITkr_kAAAAJ"><i class="fa fa-graduation-cap"></i></a>
                               </li>
-
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-9">
+                    <h4>Communities and Anomalies in Attributed Networks</h4>
+                    <p class="large" style="text-align: justify;">
+                      Given a network in which nodes are associated with a list of attributes, how can we define and characterize communities? How can we spot anomalous communities and anomalies within communities?
+                      Networks have long been studied and focus has most recently shifted to 'networks with content'. Long-studied network questions, such as ranking, clustering, and similarity, are reconsidered for such networks, as the new information such as node/edge attributes and types help enrich the formulations and increase our understanding of real-world networks.
+                      In this talk, I will introduce our work on spotting anomalies in networks with node attributes. Our main approach to anomaly mining in attributed networks is through communities. In particular, we quantify the degree that a community can be characterized through (a subset of) attributes on which its members 'click'. We then use such a quantity as a 'normality' score, based on which we identify individual anomalous nodes inside communities as well as communities that are anomalous as a group of nodes due to their low normality.
+                      <br/>
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/lars.jpg" class="img-responsive img-circle" alt="Lars Backstrom">
                           <h4>Lars Backstrom</h4>
@@ -304,11 +314,21 @@
                               </li>
                               <li><a target=_blank href="https://www.semanticscholar.org/author/Lars-Backstrom/2612372"><i class="fa fa-graduation-cap"></i></a>
                               </li>
-
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-4">
+
+                  <div class="col-sm-9">
+                    <h4>Serving a billion personalized news feeds</h4>
+                    <p class="large" style="text-align: justify;">
+                      Feed ranking's goal is to provide people with over a billion personalized experiences. We strive to provide the most compelling content to each person, personalized to them so that they are most likely to see the content that is most interesting to them. Similar to a newspaper, putting the right stories above the fold has always been critical to engaging customers and interesting them in the rest of the paper. In feed ranking, we face a similar challenge, but on a grander scale. Each time a person visits, we need to find the best piece of content out of all the available stories and put it at the top of feed where people are most likely to see it. To accomplish this, we do large-scale machine learning to model each person, figure out which friends, pages and topics they care about and pick the stories each particular person is interested in. In addition to the large-scale machine learning problems we work on, another primary area of research is understanding the value we are creating for people and making sure that our objective function is in alignment with what people want.
+                      <br/>
+                    </p>
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/tammy.jpg" class="img-responsive img-circle" alt="Tamara Kolda">
                           <h4>Tamara Kolda</h4>
@@ -325,9 +345,17 @@
                           </ul>
                       </div>
                   </div>
+                <div class="col-sm-9">
+                  <h4>Correctly Modeling Networks</h4>
+                  <p class="large" style="text-align: justify;">
+                  Understanding and modeling go hand in hand – we  develop models not only to make predictions but also to see where the models fail and there is more to do. Large-scale networks are immensely challenging to model mathematically. In this talk, we present our arguments for what features are important to measure and reproduce. In the undirected case, we show that graphs with high clustering coefficients (i.e., many triangles) must have dense Erdȍs-Rényi subgraphs.  This is a key theoretical finding that may yield clues in understanding network structure. Following this line, we propose the Block Two-level Erdȍs-Rényi (BTER) model because it reproduces a given degree distribution and clustering coefficient profile (i.e., the triangle distribution), scales linearly in the number of edges, and is easily parallelized. We also consider the extension of this work to bipartite graphs, where we consider bipartite four-cycles, and propose a bipartite BTER (biBTER) model. These models can be used to generate artificial graphs that capture salient features of real graphs. We  compare the artificial and real-world graphs so that we can understand where the models are accurate or not. Time permitting, we also explain how these models can be specified with very few parameters, which is useful for benchmarking purposes. We close with open questions for future investigations. This is joint work with S. Aksoy, A. Pinar, T. Plantenga, and C. Seshadhri.
+                  <br/><br/><br/>
+                  </p>
                 </div>
-                <div class="row">
-                  <div class="col-sm-4">
+              </div>
+              <div class="row">
+
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/jen.jpg" class="img-responsive img-circle" alt="Jennifer Neville">
                           <h4>Jennifer Neville</h4>
@@ -344,11 +372,22 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-4">
+
+                  <div class="col-sm-9">
+                    <h4>Statistical methods for modeling network distributions</h4>
+                    <p class="large" style="text-align: justify;">
+                      The recent interest in analyzing the network structure of complex systems has fueled a large body of research on both models of network structure and algorithms to automatically discover patterns for use in predictive models. However, robust statistical models, which can accurately represent distributions over graph populations, and sample efficiently from those distributions, are critical to assess the evaluate the performance of analytic algorithms and the significance of discovered patterns. However, unlike metric spaces, the space of graphs exhibits a combinatorial structure that poses significant theoretical and practical challenges to accurate estimation and efficient sampling/inference. In this talk, I will discuss our recent work on modeling distributions of networks, both attributed and unattributed, and outline how the methods can be used for inference and evaluation.
+                      <br/>
+                    </p>
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/yizhou.jpg" class="img-responsive img-circle" alt="Yizhou Sun">
                           <h4>Yizhou Sun</h4>
-                          <p class="text-muted">Assistant Professor<br/>Northeastern University</p>
+                          <p class="text-muted">Assistant Professor<br/>University of California, Los Angeles</p>
                           <ul class="list-inline social-buttons">
                               <li><a target=_blank href="http://www.ccs.neu.edu/home/yzsun/"><i class="fa fa-home"></i></a>
                               </li>
@@ -361,7 +400,16 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-9">
+                    <h4>Node Representation in Mining Heterogeneous Information Networks</h4>
+                    <p class="large" style="text-align: justify;">
+                      One of the challenges in mining information networks is the lack of intrinsic metric in representing nodes into a low dimensional space, which is essential in many mining tasks, such as recommendation and anomaly detection. Moreover, when coming to heterogeneous information networks, where nodes belong to different types and links represent different semantic meanings, it is even more challenging to represent nodes properly. In this talk, we will focus on two mining tasks, i.e., (1) content-based recommendation and (2) anomaly detection in heterogeneous categorical events, and introduce (1) how to represent nodes when different types of nodes and links are involved; and (2) how heterogeneous links play different roles in these tasks. Our results have demonstrated the superiority as well as the interpretability of these new methodologies.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+
+                  <div class="col-sm-3">
                       <div class="team-member">
                           <img src="img/speakers/vishy.jpg" class="img-responsive img-circle" alt="S.V.N. Vishwanathan">
                           <h4>S.V.N. Vishwanathan</h4>
@@ -378,6 +426,15 @@
                           </ul>
                       </div>
                   </div>
+
+                  <div class="col-sm-9">
+                    <h4>TBA</h4>
+                    <p class="large" style="text-align: justify;">
+                      TBA
+                    </p>
+                  </div>
+
+                </div>
               </div>
           </div>
       </section>
